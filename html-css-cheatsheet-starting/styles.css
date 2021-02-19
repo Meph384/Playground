@@ -1,0 +1,50 @@
+:root {
+    --pink: rgb(212, 143, 230);
+    --blue: rgb(207, 219, 242);
+    --darkBlue: rgb(141, 11, 184);
+    --yellow: rgb(231, 235, 166);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--blue);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    text-align: center;
+    color: var(--pink);
+}
+
+table {
+    border: var(--darkBlue) 3px solid;
+    width: 600px;
+}
+
+thead td {
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: var(--pink);
+}
+
+td {
+    border-bottom: black 1px solid;
+    padding: 3px;
+}
+
+h2 {
+    text-align: center;
+    color: var(--darkBlue);
+}
+
+table {
+    margin: 0 auto;
+}
+
+.highlight {
+    background-color: var(--yellow);
+    font-family: monospace;
+}
